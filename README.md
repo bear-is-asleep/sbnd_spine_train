@@ -28,8 +28,7 @@ UResNet Sem.:
 ![uresnet_ppn_resources](./v02_figures/uresnet_ppn_resource_usage.png)
 
 UResNet PPN:
-![ppn_acc](./v02_figures/ppn_accuracy.png)
-![ppn_loss](./v02_figures/ppn_loss.png)
+![ppn_loss](./v02_figures/ppn_transfer_loss.png)
 
 Graph SPICE:
 ![graph_spice_acc](./v02_figures/graph_spice_accuracy.png)
