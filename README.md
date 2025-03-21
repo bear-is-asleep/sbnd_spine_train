@@ -18,35 +18,35 @@ Once this is done, replace the weights in each `.cfg` file in the `full_chain` d
 #### v02 Example results
 
 Deghosting:
-![deghost_acc](./figures/deghost_accuracy.png)
-![deghost_loss](./figures/deghost_loss.png)
-![deghost_resources](./figures/deghost_resource_usage.png)
+![deghost_acc](./v02_figures/deghost_accuracy.png)
+![deghost_loss](./v02_figures/deghost_loss.png)
+![deghost_resources](./v02_figures/deghost_resource_usage.png)
 
 UResNet Sem.:
-![uresnet_ppn_acc](./figures/uresnet_ppn_accuracy.png)
-![uresnet_ppn_loss](./figures/uresnet_ppn_loss.png)
-![uresnet_ppn_resources](./figures/uresnet_ppn_resource_usage.png)
+![uresnet_ppn_acc](./v02_figures/uresnet_ppn_accuracy.png)
+![uresnet_ppn_loss](./v02_figures/uresnet_ppn_loss.png)
+![uresnet_ppn_resources](./v02_figures/uresnet_ppn_resource_usage.png)
 
 UResNet PPN:
-![ppn_acc](./figures/ppn_accuracy.png)
-![ppn_loss](./figures/ppn_loss.png)
+![ppn_acc](./v02_figures/ppn_accuracy.png)
+![ppn_loss](./v02_figures/ppn_loss.png)
 
 Graph SPICE:
-![graph_spice_acc](./figures/graph_spice_accuracy.png)
-![graph_spice_loss](./figures/graph_spice_loss.png)
-![graph_spice_resources](./figures/graph_spice_resource_usage.png)
+![graph_spice_acc](./v02_figures/graph_spice_accuracy.png)
+![graph_spice_loss](./v02_figures/graph_spice_loss.png)
+![graph_spice_resources](./v02_figures/graph_spice_resource_usage.png)
 
 Grappa Shower:
-![grappa_shower_acc](./figures/grappa_shower_accuracy.png)
-![grappa_shower_loss](./figures/grappa_shower_loss.png)
-![grappa_shower_resources](./figures/grappa_shower_resource_usage.png)
+![grappa_shower_acc](./v02_figures/grappa_shower_accuracy.png)
+![grappa_shower_loss](./v02_figures/grappa_shower_loss.png)
+![grappa_shower_resources](./v02_figures/grappa_shower_resource_usage.png)
 
 Grappa Track:
-![grappa_track_acc](./figures/grappa_track_accuracy.png)
-![grappa_track_loss](./figures/grappa_track_loss.png)
-![grappa_track_resources](./figures/grappa_track_resource_usage.png)
+![grappa_track_acc](./v02_figures/grappa_track_accuracy.png)
+![grappa_track_loss](./v02_figures/grappa_track_loss.png)
+![grappa_track_resources](./v02_figures/grappa_track_resource_usage.png)
 
 Grappa Inter:
-![grappa_inter_acc](./figures/grappa_inter_accuracy.png)
-![grappa_inter_loss](./figures/grappa_inter_loss.png)
-![grappa_inter_resources](./figures/grappa_inter_resource_usage.png)
+![grappa_inter_acc](./v02_figures/grappa_inter_accuracy.png)
+![grappa_inter_loss](./v02_figures/grappa_inter_loss.png)
+![grappa_inter_resources](./v02_figures/grappa_inter_resource_usage.png)
