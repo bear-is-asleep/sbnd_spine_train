@@ -14,3 +14,39 @@ Submit a job by doing `qsub <script_name>_qsub.sh`. For example, to submit the U
 Full chain transfer trains using labels from the previous stage. So you must select the previous stage's validation results to select the best set of weights for the model.
 
 Once this is done, replace the weights in each `.cfg` file in the `full_chain` directory with the new weights. Transfer training happens in order: `graph_spice`, `uresnet_ppn`, [`grappa_shower`, `grappa_track`], and `grappa_inter`.
+
+#### v02 Example results
+
+Deghosting:
+![deghost_acc](./figures/deghost_accuracy.png)
+![deghost_loss](./figures/deghost_loss.png)
+![deghost_resources](./figures/deghost_resource_usage.png)
+
+UResNet Sem.:
+![uresnet_ppn_acc](./figures/uresnet_ppn_accuracy.png)
+![uresnet_ppn_loss](./figures/uresnet_ppn_loss.png)
+![uresnet_ppn_resources](./figures/uresnet_ppn_resource_usage.png)
+
+UResNet PPN:
+![ppn_acc](./figures/ppn_accuracy.png)
+![ppn_loss](./figures/ppn_loss.png)
+
+Graph SPICE:
+![graph_spice_acc](./figures/graph_spice_accuracy.png)
+![graph_spice_loss](./figures/graph_spice_loss.png)
+![graph_spice_resources](./figures/graph_spice_resource_usage.png)
+
+Grappa Shower:
+![grappa_shower_acc](./figures/grappa_shower_accuracy.png)
+![grappa_shower_loss](./figures/grappa_shower_loss.png)
+![grappa_shower_resources](./figures/grappa_shower_resource_usage.png)
+
+Grappa Track:
+![grappa_track_acc](./figures/grappa_track_accuracy.png)
+![grappa_track_loss](./figures/grappa_track_loss.png)
+![grappa_track_resources](./figures/grappa_track_resource_usage.png)
+
+Grappa Inter:
+![grappa_inter_acc](./figures/grappa_inter_accuracy.png)
+![grappa_inter_loss](./figures/grappa_inter_loss.png)
+![grappa_inter_resources](./figures/grappa_inter_resource_usage.png)
