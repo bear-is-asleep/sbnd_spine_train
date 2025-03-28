@@ -25,6 +25,8 @@ Deghosting:
 UResNet Sem.:
 ![uresnet_ppn_acc](./v02_figures/uresnet_ppn_accuracy.png)
 ![uresnet_ppn_loss](./v02_figures/uresnet_ppn_loss.png)
+![uresnet_ppn_transfer_loss](./v02_figures/uresnet_ppn_transfer_loss.png)
+![uresnet_ppn_transfer_acc](./v02_figures/uresnet_ppn_transfer_accuracy.png)
 ![uresnet_ppn_resources](./v02_figures/uresnet_ppn_resource_usage.png)
 
 UResNet PPN:
@@ -33,19 +35,27 @@ UResNet PPN:
 Graph SPICE:
 ![graph_spice_acc](./v02_figures/graph_spice_accuracy.png)
 ![graph_spice_loss](./v02_figures/graph_spice_loss.png)
+![graph_spice_transfer_loss](./v02_figures/graph_spice_transfer_loss.png)
+![graph_spice_transfer_acc](./v02_figures/graph_spice_transfer_accuracy.png)
 ![graph_spice_resources](./v02_figures/graph_spice_resource_usage.png)
 
 Grappa Shower:
 ![grappa_shower_acc](./v02_figures/grappa_shower_accuracy.png)
 ![grappa_shower_loss](./v02_figures/grappa_shower_loss.png)
+![grappa_shower_transfer_loss](./v02_figures/grappa_shower_transfer_loss.png)
+![grappa_shower_transfer_acc](./v02_figures/grappa_shower_transfer_accuracy.png)
 ![grappa_shower_resources](./v02_figures/grappa_shower_resource_usage.png)
 
 Grappa Track:
 ![grappa_track_acc](./v02_figures/grappa_track_accuracy.png)
 ![grappa_track_loss](./v02_figures/grappa_track_loss.png)
+![grappa_track_transfer_loss](./v02_figures/grappa_track_transfer_loss.png)
+![grappa_track_transfer_acc](./v02_figures/grappa_track_transfer_accuracy.png)
 ![grappa_track_resources](./v02_figures/grappa_track_resource_usage.png)
 
 Grappa Inter:
 ![grappa_inter_acc](./v02_figures/grappa_inter_accuracy.png)
 ![grappa_inter_loss](./v02_figures/grappa_inter_loss.png)
+![grappa_inter_transfer_loss](./v02_figures/grappa_inter_transfer_loss.png)
+![grappa_inter_transfer_acc](./v02_figures/grappa_inter_transfer_accuracy.png)
 ![grappa_inter_resources](./v02_figures/grappa_inter_resource_usage.png)
