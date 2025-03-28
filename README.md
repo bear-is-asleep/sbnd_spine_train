@@ -25,8 +25,8 @@ Deghosting:
 UResNet Sem.:
 ![uresnet_ppn_acc](./v02_figures/uresnet_ppn_accuracy.png)
 ![uresnet_ppn_loss](./v02_figures/uresnet_ppn_loss.png)
-![uresnet_ppn_transfer_loss](./v02_figures/uresnet_ppn_transfer_loss.png)
-![uresnet_ppn_transfer_acc](./v02_figures/uresnet_ppn_transfer_accuracy.png)
+![uresnet_transfer_loss](./v02_figures/uresnet_transfer_loss.png)
+![uresnet_transfer_acc](./v02_figures/uresnet_transfer_accuracy.png)
 ![uresnet_ppn_resources](./v02_figures/uresnet_ppn_resource_usage.png)
 
 UResNet PPN:
