@@ -52,7 +52,7 @@ singularity run -B /lus/eagle/ -B /lus/grand/ --nv $container <<EOL
     echo $CUDA_VISIBLE_DEVICES
 
     echo "Begin training"
-    python /lus/eagle/projects/neutrinoGPU/bearc/spine/bin/run.py -c $TMP_CFG -S $FNAME
+    python /lus/eagle/projects/neutrinoGPU/bearc/dev/spine/bin/run.py -c $TMP_CFG -S $FNAME
     echo "Training complete"
 
 EOL

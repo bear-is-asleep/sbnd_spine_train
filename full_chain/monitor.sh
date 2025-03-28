@@ -1,4 +1,4 @@
-LOG_DIR=/lus/eagle/projects/neutrinoGPU/bearc/spine_weights/mpvmpr_v02/logs/full_chain/uresnet_ppn/default
+LOG_DIR=/lus/eagle/projects/neutrinoGPU/bearc/spine_weights/mpvmpr_v02/logs/full_chain/grappa_shower/default
 PARSL_DIR=/home/bearc/sbnd_parsl
 
 echo "Begin monitoring"

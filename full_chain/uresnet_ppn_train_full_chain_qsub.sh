@@ -7,7 +7,7 @@
 #PBS -A neutrinoGPU
 
 NNODES=1
-RUNDIR=/lus/eagle/projects/neutrinoGPU/bearc/spine_train/full_chain/uresnet_ppn
+RUNDIR=/lus/eagle/projects/neutrinoGPU/bearc/spine_train/full_chain
 
 #Clean error and out logs
 if [ -f /lus/eagle/projects/neutrinoGPU/bearc/spine_weights/mpvmpr_v02/logs/full_chain/uresnet_ppn/default/train_uresnet_ppn_full.stderr ]; then

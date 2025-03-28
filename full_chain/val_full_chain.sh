@@ -1,9 +1,9 @@
 #!/bin/bash
-TRAIN_CFG=/lus/eagle/projects/neutrinoGPU/bearc/spine_train/full_chain/full_chain_graph_spice_val.cfg
+TRAIN_CFG=/lus/eagle/projects/neutrinoGPU/bearc/spine_train/full_chain/full_chain_val.cfg
 FNAME=/lus/eagle/projects/neutrinoGPU/bearc/simulation/mpvmpr_v02/test/files.txt
 PARSL_DIR=/lus/eagle/projects/neutrinoGPU/bearc/sbnd_parsl
 
-workdir=/lus/eagle/projects/neutrinoGPU/bearc/spine_weights/mpvmpr_v02/val/full_chain/graph_spice
+workdir=/lus/eagle/projects/neutrinoGPU/bearc/spine_weights/mpvmpr_v02/train/full_chain/grappa_inter
 #cores_per_worker=8
 container=/lus/grand/projects/neutrinoGPU/software/spine_develop/larcv2_ub2204-cuda121-torch251-larndsim.sif
 

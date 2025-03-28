@@ -1,10 +1,9 @@
 #!/bin/bash
-TRAIN_CFG=/lus/eagle/projects/neutrinoGPU/bearc/spine_train/full_chain/full_chain_uresnet_ppn.cfg
-LOG_DIR=/lus/eagle/projects/neutrinoGPU/bearc/spine_weights/mpvmpr_v02/logs/full_chain/uresnet_ppn
+TRAIN_CFG=/lus/eagle/projects/neutrinoGPU/bearc/spine_train/full_chain/full_chain_uresnet_ppn_val.cfg
 FNAME=/lus/eagle/projects/neutrinoGPU/bearc/simulation/mpvmpr_v02/test/files.txt
 PARSL_DIR=/lus/eagle/projects/neutrinoGPU/bearc/sbnd_parsl
 
-workdir=/lus/eagle/projects/neutrinoGPU/bearc/spine_weights/mpvmpr_v02/val/full_chain/uresnet_ppn
+workdir=/lus/eagle/projects/neutrinoGPU/bearc/spine_weights/mpvmpr_v02/val/full_chain
 #cores_per_worker=8
 container=/lus/grand/projects/neutrinoGPU/software/spine_develop/larcv2_ub2204-cuda121-torch251-larndsim.sif
 
@@ -53,7 +52,7 @@ singularity run -B /lus/eagle/ -B /lus/grand/ --nv $container <<EOL
     echo $CUDA_VISIBLE_DEVICES
 
     echo "Begin training"
-    python /lus/eagle/projects/neutrinoGPU/bearc/spine/bin/run.py -c $TMP_CFG -S $FNAME
+    python /lus/eagle/projects/neutrinoGPU/bearc/dev/spine/bin/run.py -c $TMP_CFG -S $FNAME
     echo "Training complete"
 
 EOL
