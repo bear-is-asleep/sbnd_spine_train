@@ -1,6 +1,10 @@
-## SBND SPINE Train (Polaris)
+# SBND SPINE Train (Polaris)
 
 This repository contains the code for training the SBND SPINE model on Polaris.
+
+## Preparing
+
+Some files have a very large number of ghost points which causes CNN trainings to fail. We observe that events in the highest percentile can be removed without impacting performance. To find these events, you first must count the number of voxels in each event. This is done using `test_batchsize_deghost.py`, where you provide a file list. Then you can make a histogram to find the number of events and set a cutoff maximum voxel size in `make_test_plot.py`. This should result in a file that you pass to the `skip_entry_list` parameter under `io: loader: dataset`.
 
 ### Debug
 To run the training script locally do `. debug.sh`. This will start an interactive job with 1 node, 4GPUs, 64 cores, and up to 1 hour walltime. You can launch a training script by sourcing any of the `.sh` files in the directories. For example, UResNet PPN training can be launched by sourcing `spine_train/uresnet_ppn/train_uresnet_ppn.sh`. You can monitor the job by running the `monitor.sh` script in the same directory. You have to ssh into the node that the job is running on to monitor the job.
