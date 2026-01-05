@@ -4,6 +4,25 @@ This repository contains the code for training the SBND SPINE model on Polaris.
 
 ## Preparing
 
+### Hadding
+
+Files should be hadded together, such that they are each 50 GB, this is optimial for loading and batching. Additionally, the files should be split into test/train folders. An example file structure is:
+
+```
+test/larcv_mpvmpr_0000.root
+test/larcv_mpvmpr_0001.root
+test/larcv_mpvmpr_0002.root
+...
+
+train/larcv_mpvmpr_0000.root
+train/larcv_mpvmpr_0001.root
+train/larcv_mpvmpr_0002.root
+...
+
+```
+
+### "skip_files_list:"
+
 Some files have a very large number of ghost points which causes CNN trainings to fail. We observe that events in the highest percentile can be removed without impacting performance. To find these events, you first must count the number of voxels in each event. This is done using `test_batchsize_deghost.py`, where you provide a file list. Then you can make a histogram to find the number of events and set a cutoff maximum voxel size in `make_test_plot.py`. This should result in a file that you pass to the `skip_entry_list` parameter under `io: loader: dataset`.
 
 ### Debug
